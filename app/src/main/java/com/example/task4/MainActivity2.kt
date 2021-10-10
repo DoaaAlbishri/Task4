@@ -15,5 +15,6 @@ class MainActivity2 : AppCompatActivity() {
         val loc = intent.getStringExtra("Loc")
         text = findViewById(R.id.textView)
         text.text = "Name: $name \nLocation: $loc"
+        println("Thank you")
     }
 }
